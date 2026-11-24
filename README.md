@@ -1,6 +1,10 @@
 # Quantizer Kassutronics · Manuel d’utilisation en français
 
-**Étape 1 · Analyse et sommaire proposés à la validation.** Ce projet documente le module Eurorack à deux canaux pour un lecteur qui découvre la quantification. Le périmètre couvre les cartes 1.1 et 1.2 assemblées. La notice utilisateur porte elle-même le numéro 1.1. Le code étudié correspond au firmware v1.0.2. Ces trois numérotations désignent des objets différents.
+**Étape 2 · Manuel HTML complet proposé à la validation.** Ce projet documente le module Eurorack à deux canaux pour un lecteur qui découvre la quantification. Le périmètre couvre les cartes 1.1 et 1.2 assemblées. La notice utilisateur porte elle-même le numéro 1.1. Le code étudié correspond au firmware v1.0.2. Ces trois numérotations désignent des objets différents.
+
+[Télécharger le manuel HTML autonome](https://raw.githubusercontent.com/Labtechno/Quantizer-notice/main/html/index.html) · [Consulter le fichier dans le dépôt](html/index.html)
+
+Ouvrir le fichier téléchargé dans un navigateur. Les illustrations, les commandes de la vue 3D et l’étude interactive de quantification sont intégrées au fichier.
 
 ## Ce que fait le module
 
@@ -51,7 +55,7 @@ Le Quantizer reçoit une tension de commande (CV) et choisit une hauteur parmi l
 | Calibration | Mode clavier et voltmètre continu. RV2 règle le zéro de la sortie gauche, RV1 l’échelle à +5 V, RV3 le zéro de la sortie droite. Vérifications complémentaires à −5 V et sur les deux canaux. |
 | Cartes DIY | Sur 1.1, l’auteur documente un possible court-circuit fugitif du +12 V à la masse lors du branchement ou retrait d’un câble Trig et donne une modification recommandée. La 1.2 intègre la correction. La documentation 1.2B précise aussi que D6 doit être omise sur toutes les révisions. Une protection contre l’inversion dépend donc du montage réel. |
 
-## Sommaire proposé et illustrations
+## Sommaire validé et illustrations
 
 | Chapitre | Contenu et planches prévues |
 |---|---|
@@ -69,7 +73,7 @@ Le Quantizer reçoit une tension de commande (CV) et choisit une hauteur parmi l
 | 12. Dépanner et vérifier la justesse | Aucune note audible, hauteur figée, note précédente au déclenchement, gamme inattendue, décalage constant ou écart qui grandit avec l’octave. Arbre de diagnostic, puis calibration au multimètre en annexe technique. |
 | Annexes | Caractéristiques et limites, aide-mémoire Shift, glossaire, sources et points à confirmer. Fiches vierges avec couronne, réglages, connexions, conditions de départ et notes d’écoute. |
 
-La version HTML prévue sera un fichier autonome, avec CSS et SVG intégrés. La scène 3D illustrera les relations mécaniques documentées. Chaque manipulation aura ses vues avant/action/après et chaque patch distinguera hauteur, déclenchement et audio par le tracé et la légende. Le PDF imprimable sera préparé après validation de l’HTML complet.
+La version HTML est un fichier autonome, avec CSS et SVG intégrés. La scène 3D illustre les relations mécaniques documentées. Les planches de manipulation présentent des vues avant/action/après et chaque patch distingue hauteur, déclenchement et audio par le tracé et la légende. Le PDF imprimable sera préparé après validation de l’HTML complet.
 
 ## Sources primaires
 
