@@ -1,8 +1,8 @@
 # Quantizer Kassutronics · Manuel d’utilisation en français
 
-**Étape 2 · Manuel HTML complet proposé à la validation.** Ce projet documente le module Eurorack à deux canaux pour un lecteur qui découvre la quantification. Le périmètre couvre les cartes 1.1 et 1.2 assemblées. La notice utilisateur porte elle-même le numéro 1.1. Le code étudié correspond au firmware v1.0.2. Ces trois numérotations désignent des objets différents.
+**Manuel français · Éditions HTML et PDF.** Ce projet documente le module Eurorack à deux canaux pour un lecteur qui découvre la quantification. Le périmètre couvre les cartes 1.1 et 1.2 assemblées. La notice utilisateur porte elle-même le numéro 1.1. Le code étudié correspond au firmware v1.0.2. Ces trois numérotations désignent des objets différents.
 
-[Télécharger le manuel HTML autonome](https://raw.githubusercontent.com/Labtechno/Quantizer-notice/main/html/index.html) · [Consulter le fichier dans le dépôt](html/index.html)
+[Ouvrir le manuel PDF A4](pdf/Quantizer-manuel-FR.pdf) · [Télécharger le manuel HTML autonome](https://raw.githubusercontent.com/Labtechno/Quantizer-notice/main/html/index.html) · [Consulter le fichier dans le dépôt](html/index.html)
 
 Ouvrir le fichier téléchargé dans un navigateur. Les illustrations, les commandes de la vue 3D et l’étude interactive de quantification sont intégrées au fichier.
 
@@ -73,7 +73,7 @@ Le Quantizer reçoit une tension de commande (CV) et choisit une hauteur parmi l
 | 12. Dépanner et vérifier la justesse | Aucune note audible, hauteur figée, note précédente au déclenchement, gamme inattendue, décalage constant ou écart qui grandit avec l’octave. Arbre de diagnostic, puis calibration au multimètre en annexe technique. |
 | Annexes | Caractéristiques et limites, aide-mémoire Shift, glossaire, sources et points à confirmer. Fiches vierges avec couronne, réglages, connexions, conditions de départ et notes d’écoute. |
 
-La version HTML est un fichier autonome, avec CSS et SVG intégrés. La scène 3D illustre les relations mécaniques documentées. Les planches de manipulation présentent des vues avant/action/après et chaque patch distingue hauteur, déclenchement et audio par le tracé et la légende. Le PDF imprimable sera préparé après validation de l’HTML complet.
+La version HTML est un fichier autonome, avec CSS et SVG intégrés. La scène 3D illustre les relations mécaniques documentées. Les planches de manipulation présentent des vues avant/action/après et chaque patch distingue hauteur, déclenchement et audio par le tracé et la légende. Le PDF A4 de 34 pages comprend un sommaire paginé et cliquable. Les six exemples de patch occupent les pages 22 à 27 et les fiches vierges les pages 32 et 33.
 
 ## Sources primaires
 
